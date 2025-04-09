@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always" /> <!-- ← FORCE ICON TO SHOW -->
+
+    <item
+        android:id="@+id/menu_export"
+        android:title="Export to CSV"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always" /> <!-- ← FORCE ICON TO SHOW -->
+
+    <item
+        android:id="@+id/menu_reset"
+        android:title="Reset Attendance"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="always" /> <!-- ← CHANGE from 'never' -->
+</menu>
