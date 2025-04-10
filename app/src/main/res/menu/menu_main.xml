@@ -5,17 +5,24 @@
         android:id="@+id/menu_search"
         android:title="Search"
         android:icon="@android:drawable/ic_menu_search"
-        app:showAsAction="always" /> <!-- ← FORCE ICON TO SHOW -->
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/menu_export"
         android:title="Export to CSV"
         android:icon="@android:drawable/ic_menu_save"
-        app:showAsAction="always" /> <!-- ← FORCE ICON TO SHOW -->
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/menu_reset"
         android:title="Reset Attendance"
         android:icon="@android:drawable/ic_menu_revert"
-        app:showAsAction="always" /> <!-- ← CHANGE from 'never' -->
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_import"
+        android:title="Import CSV"
+        android:icon="@android:drawable/ic_menu_upload"
+        app:showAsAction="always" />
+
 </menu>

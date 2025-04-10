@@ -7,17 +7,19 @@
     android:layout_height="match_parent">
 
     <!-- Custom Toolbar -->
+
+
+    <!-- Buttons and text -->
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#6200EE"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:title="QR Attendance App"
-        app:titleTextColor="@android:color/white"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        app:titleTextColor="@android:color/white" />
 
-
-    <!-- Buttons and text -->
     <Button
         android:id="@+id/scanButton"
         android:layout_width="wrap_content"
